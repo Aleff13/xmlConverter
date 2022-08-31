@@ -20,7 +20,7 @@ class XML:
 
             print("convertendo o item {}".format(x))
             print("-------------------------------")
-            sleep(0.5)
+            # sleep(0.5)
         
             produto = ET.SubElement(XML.item, "product")
 
